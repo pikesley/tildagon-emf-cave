@@ -1,0 +1,5 @@
+{
+    "name": "EMF Cave",
+    "path": "apps.emf_cave.app",
+    "callable": "EMFCave"
+  }

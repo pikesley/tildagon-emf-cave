@@ -1,0 +1,14 @@
+{
+    "ship": {
+        "tail": {
+            "length": 6,
+            "spacing": 8
+        },
+        "rates": {
+            "fall": 5,
+            "rise": 10
+        }
+        "size": 10,
+        "x-offset": -50
+    }
+}
