@@ -1,14 +1,17 @@
 {
-    "ship": {
-        "tail": {
-            "length": 6,
-            "spacing": 8
-        },
-        "rates": {
-            "fall": 5,
-            "rise": 10
-        }
-        "size": 10,
-        "x-offset": -50
-    }
+  "ship": {
+    "rates": {
+      "fall": 5,
+      "rise": 10
+    },
+    "size": 10,
+    "tail": {
+      "length": 6,
+      "spacing": 8
+    },
+    "x-offset": -50
+  },
+  "cave":{
+    "segment-width": 5
+  }
 }
