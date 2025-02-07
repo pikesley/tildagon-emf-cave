@@ -41,7 +41,8 @@
     "offsets": {
       "lower": 105,
       "upper": -105
-    }
+    },
+    "tilt-threshold": 7
   },
   "screen": {
     "max": {

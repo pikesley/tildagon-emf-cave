@@ -40,6 +40,7 @@ scores:
     upper: -105  # position for upper high-score
   base-specifiers: [d, b, x, o]  # bases to present the score in
   base-index: 0  # start with this base
+  tilt-threshold: 7 # how far to tilt the badge to select a different number base
 
 screen:  # how much screen to use
   max:

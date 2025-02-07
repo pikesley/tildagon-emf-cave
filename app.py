@@ -131,7 +131,7 @@ class EMFCave(app.App):
 
     def set_score_base(self, acc):
         """Set the scoreboard number base."""
-        threshold = 9
+        threshold = conf["scores"]["tilt-threshold"]
         conditions = [
             acc[0] > threshold,
             acc[0] < -threshold,
