@@ -9,7 +9,9 @@ lint.ignore = [
   "FIX", # Don't worry about FIXMEs etc.
   "S101", # alerting on assert being used is mad when unit tests exist
   "S311", # I DO NOT CARE ABOUT PSEUDO-RANDOM NUMBERS
-  "PLR2004" # FUCK OFF
+  "PLR2004", # I WILL USE WHATEVER GODDAMN MAGIC COMPARISON VALUES I WANT IN MY TESTS FUCK OFF RUFF
+  "RUF005", # no good for micropython
+  "TID252" # it's all relative imports down here
 ]
 lint.select = [
   "A", # flake8-builtins

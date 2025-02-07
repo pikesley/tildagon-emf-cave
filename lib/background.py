@@ -7,8 +7,10 @@ class Background:
         opacity=1,
     ):
         """Construct."""
-        self.colour = list(colour) + [opacity]  # noqa: RUF005
+        self.colour = list(colour) + [opacity]
 
     def draw(self, ctx):
         """Draw ourself."""
-        ctx.rgba(*self.colour).rectangle(-120, -120, 240, 240).fill()
+        ctx.rgba(*self.colour)
+        ctx.rectangle(-120, -120, 240, 240)
+        ctx.fill()

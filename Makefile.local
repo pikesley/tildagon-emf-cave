@@ -1,0 +1,2 @@
+reset-high-score:
+	python -m mpremote rm :apps/${APP}/high.score
