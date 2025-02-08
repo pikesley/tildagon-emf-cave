@@ -8,5 +8,5 @@ ASSET_PATH = "apps//"
 if "pikesley_tildagon_emf_cave" in apps:
     ASSET_PATH = "/apps/pikesley_tildagon_emf_cave/"
 
-if "clock" in apps:
+if "emf_cave" in apps:
     ASSET_PATH = "apps/emf_cave/"
