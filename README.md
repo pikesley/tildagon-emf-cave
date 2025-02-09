@@ -22,3 +22,7 @@ make deploy
 ```
 
 Wait while it pushes the code to the badge, then `ctrl-d`, the badge will reboot and you should see a new app called `EMF Cave`.
+
+## Tune the game
+
+There's loads of things you can tweak in [conf.yaml](conf.yaml), with lots of comments. Be careful though, it's easy to make the game completely unplayable

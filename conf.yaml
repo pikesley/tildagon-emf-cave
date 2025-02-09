@@ -18,7 +18,7 @@ ship:
 
 cave:
   height: 100  # starting height of segments
-  segment-width: 8  # starting width of segments
+  segment-width: 8  # starting width of segments. game gets faster when this gets bigger
   max-shift: 4  # maximum vertical shift between segments
   narrow-segments:
     probability: 0.02  # starting probability of one showing up
@@ -29,7 +29,7 @@ constrictions:  # make it more difficult
   interval: 100  # level-up when score is a multiple of this
   increments:
     height: 2  # decrease by this when we level-up
-    speed: 1  # widen segments by this when we' level-up (makes it all faster)
+    speed: 1  # widen segments by this when we level-up (makes it all faster)
 
 scores:
   font-sizes:
