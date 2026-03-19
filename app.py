@@ -8,7 +8,8 @@ from system.patterndisplay.events import PatternDisable
 
 import app
 
-from .lib.background import Background
+from .common.background import Background
+from .common.rgb_from_hue import rgb_from_hue
 from .lib.cave import Cave
 from .lib.conf import conf
 from .lib.explosion import Explosion
@@ -17,7 +18,6 @@ from .lib.led_manager import LEDManager
 from .lib.scoreboard import Scoreboard
 from .lib.ship import Ship
 from .lib.title_card import TitleCard
-from .pikesley.rgb_from_hue.rgb_from_hue import rgb_from_hue
 
 
 class EMFCave(app.App):

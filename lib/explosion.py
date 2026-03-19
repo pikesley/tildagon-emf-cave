@@ -1,8 +1,8 @@
 from random import randint
 
-from ..pikesley.shapes.circle import Circle
-from ..pikesley.shapes.pentagram import Pentagram
-from ..pikesley.shapes.triangle import Triangle
+from ..common.shapes.circle import Circle
+from ..common.shapes.pentagram import Pentagram
+from ..common.shapes.triangle import Triangle
 from .conf import conf
 
 red = (255, 0, 0)

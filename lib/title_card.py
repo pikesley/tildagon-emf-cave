@@ -1,4 +1,4 @@
-from ..pikesley.rgb_from_hue.rgb_from_hue import rgb_from_hue
+from ..common.rgb_from_hue import rgb_from_hue
 from .conf import conf
 
 

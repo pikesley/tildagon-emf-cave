@@ -1,5 +1,5 @@
-from ..pikesley.rgb_from_hue.rgb_from_hue import rgb_from_hue
-from ..pikesley.shapes.circle import Circle
+from ..common.rgb_from_hue import rgb_from_hue
+from ..common.shapes.circle import Circle
 from .conf import conf
 from .proximity_sensors import proximity_to_bottom, proximity_to_top
 
