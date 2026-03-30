@@ -50,7 +50,7 @@ class LEDManager:
         for i in range(6):
             brightness = conf["leds"]["brightness"]["default"]
 
-            tildagonos.leds[i + 13C ] = [
+            tildagonos.leds[i + 13] = [
                 gamma_corrections[int(c * 255 * brightness)] for c in colour
             ]
 
