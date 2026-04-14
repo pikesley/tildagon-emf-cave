@@ -1,0 +1,12 @@
+Dockerfile
+LICENSE.md
+Makefile
+Makefile.local
+README.md
+conf.yaml
+includes
+metadata.json
+requirements.txt
+ruff.toml
+scripts
+tests
